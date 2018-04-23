@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media-queries.css">
+</head>
+<body>
+    <div class="container">
+        <header class="clear">
+            <div id="logo">
+                <h1><a href="index.html">Gustavo Gibo</a></h1>
+            </div>
+            <div id="menu">
+                <nav>
+                    <a href="index.html">About</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section id="about-me" class="main-box">
+                <h1>Contact</h1>
+                <div class="content">
+                    <form action="#" method="POST" id="contact-form">
+                        <div class="input-block">
+                            <label for="contact-name">Name</label>
+                            <input type="text" placeholder="Your Name" name="contact-name" id="contact-name" required>
+                        </div>
+                        <div class="input-block">
+                            <label for="contact-email">Email</label>
+                            <input type="email" name="contact-email" id="contact-email" placeholder="Your Email" required>
+                        </div>
+                        <div class="input-block">
+                            <label for="contact-message">Message</label>
+                            <textarea name="contact-message" id="contact-message" cols="30" rows="10" required></textarea>
+                        </div>
+                        <div class="input-block">
+                            <input type="submit" id="contact-submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright &copy; - 2018</p>
+        </footer>
+    </div>
+</body>
+</html>

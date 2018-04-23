@@ -1,0 +1,155 @@
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+	.container {
+		width: 360px;
+	}
+
+	header {
+		height: auto;
+	}
+
+	#logo, #menu {
+		float: none;
+		width: 100%;
+		height: auto;
+	}
+
+	#menu {
+		text-align: center;
+	}
+
+	#menu nav a {
+		margin: 0px 0px;
+		display: block;
+		border-bottom: 1px solid black;
+	}
+
+	main .content .about-me-img {
+		float: none;
+		max-width: 100%;
+		height: auto;
+	}
+
+	main .main-box h1 {
+		text-align: center;
+	}
+
+	.content p {
+		font-size: 20px;
+	}
+
+	footer {
+		position: static;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;	
+	}
+
+	/* GALLERY */
+
+	.item-gallery {
+		float: none;
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.item-gallery img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.item-gallery .block-name-item-gallery {
+		font-size: 25px;
+	}
+
+	/* CONTACT */
+
+	.input-block {
+		margin-bottom: 20px;
+	}
+
+	.input-block input[type="text"], input[type="email"], textarea {
+		font-size: 20px;
+	}
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+	.container {
+		width: 750px;
+	}
+
+	header {
+		height: auto;
+	}
+
+	#logo, #menu {
+		float: none;
+		width: 100%;
+	}
+
+	#menu {
+		text-align: center;
+	}
+
+	#menu nav a {
+		margin: 0px 40px;
+	}
+
+	main .content .about-me-img {
+		float: none;
+		max-width: 100%;
+		height: auto;
+	}
+
+	main .main-box h1 {
+		text-align: center;
+	}
+
+	.content p {
+		font-size: 20px;
+	}
+
+	footer {
+		position: static;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;	
+	}
+
+	/* GALLERY */
+
+	.item-gallery {
+		float: none;
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.item-gallery img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.item-gallery .block-name-item-gallery {
+		font-size: 25px;
+	}
+
+	/* CONTACT */
+
+	.input-block input[type="text"], input[type="email"], textarea {
+		font-size: 20px;
+	}
+
+}
+
+/* Large and up */
+@media screen and (min-width: 64em) {}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
